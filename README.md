@@ -1,1 +1,2 @@
 # E-pay.github.io
+I have created this repo while doing internship under "Sparks Foundation" GRIP-July 21. It is a "Payment Gateway Intregration".I was supposed to create a website with "Donate" button which take the user to another page where he will choose from various options such as credit cards, debit cards or UPI or Net banking.Here details such as phone number and email and amount of money to donate.Further on successful payment, an automated mail will be send to the user. 
