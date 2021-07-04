@@ -1,0 +1,146 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #1E90FF;
+}
+.nav-item a {
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.sec-padding {
+  padding-bottom: 80px;
+}
+.fixed-top {
+  background: #f0fff0;
+}
+.nav-item {
+  padding: 0px 5px;
+}
+.nav-btn {
+  padding: 10px 28px !important;
+  background-color: #1E90FF;
+  color: #ffffff !important;
+  border: none;
+  border-radius: 33px;
+}
+
+/* Header section */
+.header-section {
+  height: 100vh;
+  background-color: #f0fff0;
+}
+.header-details h6 {
+  color: #fd511a;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.header-details h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 70px;
+  color: #000000;
+  margin-bottom: 19px;
+}
+.header-details h1 span {
+  color: #21b573;
+}
+.header-details p {
+  font-size: 16px;
+  line-height: 36px;
+  color: #6c6b6b;
+  margin-bottom: 15px;
+}
+.get-btn {
+  padding: 12px 35px;
+  background-color: #1E90FF;
+  color: #ffffff;
+  border: none;
+  border-radius: 33px;
+  transition: all 0.3s;
+}
+.get-btn:hover {
+  background-color:#1E90FF;
+}
+
+
+
+/* Responsive Css */
+@media only screen and (max-width: 1024px) {
+  .header-section {
+    padding-top: 80px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .header-section {
+    height: 100%;
+    padding-bottom: 50px;
+    padding-top: 0;
+  }
+  .header-details {
+    padding-top: 120px;
+  }
+  .cards-inner {
+    margin-bottom: 20px;
+  }
+  .video-details {
+    margin-bottom: 50px;
+  }
+  .testimonial-inner {
+    text-align: center;
+  }
+  .testimonial-inner p {
+    margin-left: 0;
+  }
+  .nav-btn {
+    max-width: 20%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .card-deck {
+    display: block !important;
+  }
+  .card {
+    margin-bottom: 30px !important;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .header-details h1 {
+    font-size: 44px;
+    line-height: 65px;
+    margin-bottom: 15px;
+  }
+  .footer-list-item ul li {
+    font-size: 14px;
+    line-height: 26px;
+  }
+}
+
+/*Back to top button */
+.gotopbtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #1E90FF;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+  border-radius: 50%;
+}
+
+.fas {
+  text-decoration: none;
+  color: white;
+}
+.fas:hover {
+  color: white;
+}
